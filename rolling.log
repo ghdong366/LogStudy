@@ -1,0 +1,10 @@
+[framework] 2022-10-11 20:20:32,479 - alone.Log4jMain -0    [main] FATAL alone.Log4jMain  - 最高级日志
+[framework] 2022-10-11 20:20:32,480 - alone.Log4jMain -1    [main] ERROR alone.Log4jMain  - 错误日志
+[framework] 2022-10-11 20:20:48,090 - alone.Log4jMain -0    [main] FATAL alone.Log4jMain  - 最高级日志
+[framework] 2022-10-11 20:20:48,092 - alone.Log4jMain -2    [main] ERROR alone.Log4jMain  - 错误日志
+[framework] 2022-10-11 20:20:59,258 - alone.Log4jMain -0    [main] FATAL alone.Log4jMain  - 最高级日志
+[framework] 2022-10-11 20:20:59,259 - alone.Log4jMain -1    [main] ERROR alone.Log4jMain  - 错误日志
+[framework] 2022-10-11 20:21:40,874 - alone.Log4jMain -0    [main] FATAL alone.Log4jMain  - 单独使用log4j打印日志--最高级日志
+[framework] 2022-10-11 20:21:40,876 - alone.Log4jMain -2    [main] ERROR alone.Log4jMain  - 单独使用log4j打印日志--错误日志
+[framework] 2022-10-11 20:21:45,041 - alone.Log4jMain -0    [main] FATAL alone.Log4jMain  - 单独使用log4j打印日志--最高级日志
+[framework] 2022-10-11 20:21:45,042 - alone.Log4jMain -1    [main] ERROR alone.Log4jMain  - 单独使用log4j打印日志--错误日志
