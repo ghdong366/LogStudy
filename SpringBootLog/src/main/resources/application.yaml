@@ -1,3 +1,7 @@
+server:
+  port: 8090
+
+
 logging:
   level:
     root: info
@@ -11,5 +15,4 @@ logging:
 #    path: D:/  # 放在D:/目录下，默认日志文件名是spring.log
 #    name: myapp.log #默认位置在外部项目的根目录
     name: D:\\logs\\applog.log #可以用绝对路径
-server:
-  port: 8090
+
