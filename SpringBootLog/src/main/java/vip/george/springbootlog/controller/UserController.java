@@ -12,8 +12,9 @@ public class UserController {
 
     @GetMapping("/login")
     public String login(@RequestParam String name){
+        // TODO: 2022/10/12  
         Logger logger = Logger.getLogger(UserController.class.getName());
-        logger.info("java日志jul输出日志信息:用户登录请求");
+        logger.info("用户"+name+"登录请求");
         return "hello "+name+"  登录成功";
     }
 }

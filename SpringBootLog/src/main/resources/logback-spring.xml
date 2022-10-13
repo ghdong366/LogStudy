@@ -1,23 +1,21 @@
-<configuration debug="true">
+<configuration>
     <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
         <encoder>
-
-<!--            表示系统使用dev环境时，这个标签里的内容才生效-->
-            <springProfile name="dev">
-                <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level -dev环境日志 %logger{36} - %msg%n</pattern>
-            </springProfile>
-<!--            表示系统使用非dev环境时，这个标签里的内容才生效-->
-            <springProfile name="!dev">
-                <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
-            </springProfile>
-
+            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
         </encoder>
     </appender>
 
-    <!--将vip.george.springbootlog.controller.UserController包记录的日志文件 -->
-    <logger name="com.fox.test.mapper" level="debug" />
+    <appender name="STDOUT2" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} [%thread] --ceshi-- %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
 
-    <root level="debug">
+    <logger name="vip.george.springbootlog.controller" level="INFO" additivity="false">
+<!--        <appender-ref ref="STDOUT2"/>-->
+    </logger>
+
+    <root level="INFO">
         <appender-ref ref="STDOUT" />
     </root>
 </configuration>

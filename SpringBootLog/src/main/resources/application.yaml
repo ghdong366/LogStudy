@@ -5,17 +5,17 @@ server:
   port: 8090
 
 
-logging:
-  level:
-    root: info
-    vip:
-      george:
-        springbootlog:
-          controller: debug #指定vip.george.springbootlog.controller.UserController包内的日志等级为debug
-#  pattern:
-#    console: '%clr(%d{${LOG_DATEFORMAT_PATTERN:-yyyy-MM-dd HH:mm:ss.SSS}}){faint} %clr(${LOG_LEVEL_PATTERN:-%5p}) %clr(${PID:- }){magenta} %clr(---){faint} %clr([%15.15t]){faint} %clr(%-40.40logger{39}){cyan} %clr(:){faint} %m%n${LOG_EXCEPTION_CONVERSION_WORD:-%wEx}'
-  file:
-#    path: D:/  # 放在D:/目录下，默认日志文件名是spring.log
-#    name: myapp.log #默认位置在外部项目的根目录
-    name: D:\\logs\\applog.log #可以用绝对路径
+#logging:
+#  level:
+#    root: info
+#    vip:
+#      george:
+#        springbootlog:
+#          controller: debug #指定vip.george.springbootlog.controller.UserController包内的日志等级为debug
+##  pattern:
+##    console: '%clr(%d{${LOG_DATEFORMAT_PATTERN:-yyyy-MM-dd HH:mm:ss.SSS}}){faint} %clr(${LOG_LEVEL_PATTERN:-%5p}) %clr(${PID:- }){magenta} %clr(---){faint} %clr([%15.15t]){faint} %clr(%-40.40logger{39}){cyan} %clr(:){faint} %m%n${LOG_EXCEPTION_CONVERSION_WORD:-%wEx}'
+#  file:
+##    path: D:/  # 放在D:/目录下，默认日志文件名是spring.log
+##    name: myapp.log #默认位置在外部项目的根目录
+#    name: D:\\logs\\applog.log #可以用绝对路径
 
